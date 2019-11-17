@@ -8,6 +8,10 @@ attr_accessor :name, :artist, :artist_name
   #  self.save
   end
 
+  def self.all
+    @@all
+  end
+  
   #def save
   #  self.class.all << self
   #end
