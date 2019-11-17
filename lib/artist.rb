@@ -17,9 +17,9 @@ attr_accessor :name, :songs, :song_count
     @song
   end
 
-  def songs
-    song.all.select { |song| song.artist == self  }
-  end
+  #def songs
+  #  song.all.select { |song| song.artist == self  }
+  #end
 
 
   def self.song_count
