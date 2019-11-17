@@ -5,6 +5,10 @@ attr_accessor :name, :songs, :song_count
     @name = name
   end
 
+  def self.name
+    @name
+  end
+  
   def self.add_song
   end
 
