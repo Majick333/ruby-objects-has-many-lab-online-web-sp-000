@@ -15,4 +15,8 @@ attr_accessor :name, :artist, :artist_name
   def save
     @@all << self
   end
+
+  def artist_name
+    Artist.name
+  end
 end
